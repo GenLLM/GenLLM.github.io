@@ -1,2 +1,559 @@
-Hello World tes
-test
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Glossary</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content="https://glossary.page/template" />
+    <link rel="preconnect" href="https://glstatic.net" crossorigin>
+    <link rel="apple-touch-icon" sizes="180x180" href="https://glstatic.net/glossary-page-template-favicons/apple-touch-icon.png?v=2">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://glstatic.net/glossary-page-template-favicons/favicon-32x32.png?v=2">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://glstatic.net/glossary-page-template-favicons/favicon-16x16.png?v=2">
+    <link rel="manifest" href="https://glstatic.net/glossary-page-template-favicons/site.webmanifest">
+    <link rel="mask-icon" href="https://glstatic.net/glossary-page-template-favicons/safari-pinned-tab.svg?v=2" color="#5bbad5">
+    <link rel="shortcut icon" href="https://glstatic.net/glossary-page-template-favicons/favicon.ico?v=2">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="https://glstatic.net/glossary-page-template-favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <script type="text/javascript">
+        // Prevent FOUC
+        document.documentElement.className = 'invisible';
+    </script>
+
+    <!-- Uncomment the lines below to add support for math typesetting using KaTeX. -->
+
+    <!--
+
+    <link rel="stylesheet" crossorigin href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css" integrity="sha384-GvrOXuhMATgEsSwCs4smul74iXGOixntILdUW9XmUC6+HX0sLNAK3q71HotJqlAn" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js" integrity="sha384-cpW21h6RZv/phavutF+AuVYrr+dA8xD9zs6FwLpaCct6O9ctzYFfFr4dgmgccOTx" crossorigin="anonymous"></script>
+
+    -->
+
+    
+  <script type="module" crossorigin src="https://glstatic.net/glossary-page-template@3/glossary.min.js"></script>
+  <link rel="stylesheet" crossorigin href="https://glstatic.net/glossary-page-template@3/glossary.min.css">
+</head>
+
+<body>
+    <div id="glossary-page-container" data-enable-help-for-making-changes="false" data-enable-export-menu="false" data-enable-order-items-buttons="true" data-enable-markdown-based-syntax="true" data-enable-last-updated-dates="true" data-card-width="intermediate">
+        <header>
+            <h1 id="glossary-page-title">
+                GenerativeAI Glossary
+            </h1>
+        </header>
+        <main>
+            <div id="glossary-page-about">
+                <p>Glossary for GenrativeAI related buzz words</p>
+                <ul>
+                    <li>
+                        <a target="_blank" href="https://www.linkedin.com/in/arch-sk/">
+                            Created By: Senthil Kumar
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <article id="glossary-page-items">
+                <dl>
+                    <div data-last-updated="2023-10-21T00:59:32.141Z">
+                        <dt>
+                            <dfn id="Azure_OpenAI">
+                                <a href="#Azure_OpenAI">
+                                    Azure OpenAI
+                                </a>
+                            </dfn>
+                        </dt>
+                        <dd>Azure OpenAI Service provides REST API access to OpenAI&#39;s powerful language models including the GPT-4, GPT-35-Turbo, and Embeddings model series. In addition, the new GPT-4 and gpt-35-turbo model series have now reached general availability.</dd>
+                        <dd>[Reference](https://learn.microsoft.com/en-us/azure/ai-services/openai/overview)</dd>
+                        <dd class="related-terms">See also: <a href="#OpenAI">OpenAI</a></dd>
+                    </div>
+                    <div data-last-updated="2023-10-21T00:52:38.766Z">
+                        <dt>
+                            <dfn id="BERT">
+                                <abbr>
+                                    <a href="#BERT">
+                                        BERT
+                                    </a>
+                                </abbr>
+                            </dfn>
+                        </dt>
+                        <dd>BERT, which stands for Bidirectional Encoder Representations from Transformers, is a method for training natural language processing (NLP) models developed by Google. It represents a significant leap in the capabilities of machine learning models to understand the context of words in a sentence.</dd>
+                        <dd>* [Reference 1](https://huggingface.co/blog/bert-101)
+
+* [Reference 2](https://blog.google/products/search/search-language-understanding-bert/)</dd>
+                    </div>
+                    <div data-last-updated="2023-10-17T03:01:28.521Z">
+                        <dt>
+                            <dfn id="Catastrophic_Forgettig">
+                                <a href="#Catastrophic_Forgettig">
+                                    Catastrophic Forgettig
+                                </a>
+                            </dfn>
+                        </dt>
+                        <dd>Catastrophic forgetting in the context of fine-tuning a large language model (LLM) refers to the phenomenon where the model, while adapting to new, specific tasks or datasets, loses or significantly reduces its performance on its original, broad capabilities.</dd>
+                        <dd>Generic Definition:
+
+Catastrophic forgetting is a phenomenon observed in neural networks where, after learning a new task or dataset, the network forgets the knowledge it previously acquired from earlier tasks or datasets. This happens because the weights in the network are significantly adjusted to cater to the new data, thereby overwriting the representations of the older data.</dd>
+                    </div>
+                    <div data-last-updated="2023-10-17T03:06:57.393Z">
+                        <dt>
+                            <dfn id="DDP">
+                                <abbr>
+                                    <a href="#DDP">
+                                        DDP
+                                    </a>
+                                </abbr>
+                            </dfn>
+                        </dt>
+                        <dd>DDP stands for &quot;Distributed Data Parallelism.&quot; In the context of training large language models (LLMs) or deep learning models in general, DDP is a technique used to distribute the training process across multiple GPUs or multiple nodes (machines), each equipped with one or more GPUs.</dd>
+                        <dd>[Reference](https://pytorch.org/tutorials/intermediate/ddp_tutorial.html)</dd>
+                    </div>
+                    <div data-last-updated="2023-10-17T03:15:10.866Z">
+                        <dt>
+                            <dfn id="Encode_Only_Model">
+                                <a href="#Encode_Only_Model">
+                                    Encode Only Model
+                                </a>
+                            </dfn>
+                        </dt>
+                        <dd>Encode-only models refer to neural network architectures where information is primarily processed in one direction to produce a representation or encoding of the input data. Unlike encoder-decoder structures (like those in autoencoders or transformer models with both encoder and decoder stacks), encode-only models don&#39;t have a symmetrical decoding phase.
+
+Representatives of this family of models include:
+
+* ALBERT
+* BERT
+* DistilBERT
+* ELECTRA
+* RoBERTa</dd>
+                        <dd>[Reference](https://huggingface.co/learn/nlp-course/chapter1/5?fw=pt)</dd>
+                        <dd class="related-terms">See also: <a href="#BERT">BERT</a></dd>
+                    </div>
+                    <div data-last-updated="2023-10-14T18:01:59.767Z">
+                        <dt>
+                            <dfn id="Few_Shot_Inference">
+                                <a href="#Few_Shot_Inference">
+                                    Few Shot Inference
+                                </a>
+                            </dfn>
+                        </dt>
+                        <dd>Few-shot inference in the context of LLMs is the act of presenting a model with a limited set of example prompts and responses (typically more than one but still a small number) to set a context or provide guidance for a task, followed by a new prompt for which the model is expected to generate an appropriate response based on the provided examples.</dd>
+                    </div>
+                    <div data-last-updated="2023-10-14T18:05:20.477Z">
+                        <dt>
+                            <dfn id="Foundational_Model">
+                                <a href="#Foundational_Model">
+                                    Foundational Model
+                                </a>
+                            </dfn>
+                        </dt>
+                        <dd>Any model that is trained on broad data (generally using self-supervision at scale) that can be adapted (e.g., fine-tuned) to a wide range of downstream tasks.
+
+*The Stanford Institute for Human-Centered Artificial Intelligence&#39;s (HAI) Center for Research on Foundation Models (CRFM) coined the term &quot;foundation model&quot; in August 2021.</dd>
+                        <dd class="related-terms">See also: <a href="#LLM">LLM</a></dd>
+                    </div>
+                    <div data-last-updated="2023-10-21T13:37:21.140Z">
+                        <dt>
+                            <dfn id="GPT_-Generative_Pre-trained_Transformer">
+                                <a href="#GPT_-Generative_Pre-trained_Transformer">
+                                    GPT -Generative Pre-trained Transformer
+                                </a>
+                            </dfn>
+                        </dt>
+                        <dd>GPT, or Generative Pre-trained Transformer, is a series of state-of-the-art language models developed by OpenAI based on the Transformer architecture. These models are trained in two stages: an initial pre-training phase on massive text corpora where they predict the next word in sequences, followed by a fine-tuning phase on specific tasks, enhancing their performance in areas like translation or question-answering. With subsequent versions, starting from the original GPT&#39;s 110 million parameters to GPT-3&#39;s impressive 175 billion parameters, the models have demonstrated remarkable capabilities in various natural language processing tasks.
+
+However, the proficiency of GPT models, especially GPT-3, has also raised concerns. Their ability to generate human-like text led to apprehensions about misuse, prompting OpenAI to initially withhold the full release of GPT-2. Additionally, like many machine learning models trained on vast internet data, GPT models have faced criticism for potential biases present in their outputs, reflecting the biases in their training data.</dd>
+                        <dd>[Reference](https://openai.com/gpt-4)</dd>
+                    </div>
+                    <div data-last-updated="2023-10-21T00:59:59.012Z">
+                        <dt>
+                            <dfn id="GPU_-__Graphics_Processing_Units">
+                                <abbr>
+                                    <a href="#GPU_-__Graphics_Processing_Units">
+                                        GPU - Graphics Processing Units
+                                    </a>
+                                </abbr>
+                            </dfn>
+                        </dt>
+                        <dd>In the realm of Large Language Models (LLMs) like OpenAI&#39;s GPT series, the Graphics Processing Unit (GPU) is an invaluable asset. GPUs are crucial during the training phase of these models, offering immense computational power to handle the vast datasets and intricate model architectures. Their parallel processing abilities, originally designed for rendering graphics, are adept at managing the matrix operations prevalent in deep learning, ensuring training processes are expedited and far more efficient compared to using traditional CPUs alone.</dd>
+                        <dd>[Reference](https://blogs.oracle.com/cloud-infrastructure/post/role-gpu-memory-training-large-language-models)</dd>
+                    </div>
+                    <div data-last-updated="2023-10-21T03:10:36.214Z">
+                        <dt>
+                            <dfn id="Hallucination">
+                                <a href="#Hallucination">
+                                    Hallucination
+                                </a>
+                            </dfn>
+                        </dt>
+                        <dd>* Hugging Face:
+
+Generation of plausible yet incorrect factual information, termed hallucination, is an unsolved issue in large language models. 
+
+In the context of large language models like GPT-4, &quot;hallucination&quot; refers to instances where the model generates information that is not based on its training data or is factually incorrect. These hallucinations can arise due to various reasons, such as the model trying to generalize from the vast amount of data it has seen or attempting to fill in gaps when faced with ambiguous queries. 
+
+[Reference](https://www.forbes.com/sites/forbestechcouncil/2023/09/06/preventing-hallucinations-in-generative-artificial-intelligence/?sh=70a182ea7340)</dd>
+                    </div>
+                    <div data-last-updated="2023-10-21T03:21:51.915Z">
+                        <dt>
+                            <dfn id="In_Context_Learning">
+                                <a href="#In_Context_Learning">
+                                    In Context Learning
+                                </a>
+                            </dfn>
+                        </dt>
+                        <dd>In-context learning was popularized in the original GPT-3 paper as a way to use language models to learn tasks given only a few examples.
+
+During in-context learning, we give the LLM a prompt that consists of a list of input-output pairs that demonstrate a task. At the end of the prompt, we append a test input and allow the LLM to make a prediction just by conditioning on the prompt and predicting the next tokens
+
+[Reference](https://blog.research.google/2023/05/larger-language-models-do-in-context.html?m=1)</dd>
+                        <dd class="related-terms">See also: <a href="#Prompt_Engineering">Prompt Engineering</a></dd>
+                    </div>
+                    <div data-last-updated="2023-10-21T13:08:41.752Z">
+                        <dt>
+                            <dfn id="Jurrasic-2">
+                                <a href="#Jurrasic-2">
+                                    Jurrasic-2
+                                </a>
+                            </dfn>
+                        </dt>
+                        <dd>General-purpose LLM from AI21 Studio, which you can easily train and customize for any need.
+
+* From AI21 Studio
+
+Our Jurassic-2 series, equipped with high-performance language models, encompasses three variants - Ultra, Mid, and Light. These models are distinguished by their unwavering delivery of superior performance and broad flexibility, excelling in diverse tasks.
+
+In addition to English, Jurassic-2 demonstrates exceptional proficiency in multiple languages including Spanish, French, German, Portuguese, Italian, and Dutch.</dd>
+                        <dd>[Reference 1](https://docs.ai21.com/docs/overview)
+
+[Reference 2](https://www.ai21.com/blog/introducing-j2)</dd>
+                    </div>
+                    <div data-last-updated="2023-10-21T00:26:54.105Z">
+                        <dt>
+                            <dfn id="KL_Divergence">
+                                <a href="#KL_Divergence">
+                                    KL Divergence
+                                </a>
+                            </dfn>
+                        </dt>
+                        <dd>Kullback-Leibler (KL) Divergence: A mathematical metric frequently employed in the context of generative models. KL divergence quantifies the difference between two probability distributions. In the realm of AI, it can be specifically utilized to measure the deviation in the probability distribution of a Human-Aligned Large Language model from that of the original, unaligned model. This divergence provides insights into how the aligned model&#39;s behavior and responses might have shifted from the original.</dd>
+                        <dd class="related-terms">See also: <a href="#RLHF-Reinforcement_Learning_from_Human_Feedback">RLHF-Reinforcement Learning from Human Feedback</a></dd>
+                    </div>
+                    <div data-last-updated="2023-10-21T13:43:32.576Z">
+                        <dt>
+                            <dfn id="Llama_2">
+                                <a href="#Llama_2">
+                                    Llama 2
+                                </a>
+                            </dfn>
+                        </dt>
+                        <dd>Llama 2 is a family of state-of-the-art open-access large language models released by Meta
+
+-- From Meta
+
+* Llama 2, the next generation of our open source large language model.
+
+
+* Llama 2 is free for research and commercial use.
+
+* Microsoft and Meta are expanding their longstanding partnership, with Microsoft as the preferred partner for Llama 2.</dd>
+                        <dd>[Reference](https://ai.meta.com/blog/llama-2/)</dd>
+                    </div>
+                    <div data-last-updated="2023-09-05T23:51:23.944Z">
+                        <dt>
+                            <dfn id="LLM">
+                                <abbr>
+                                    <a href="#LLM">
+                                        LLM
+                                    </a>
+                                </abbr>
+                            </dfn>
+                        </dt>
+                        <dd>A Large Language Model (LLM) is a machine learning model designed to understand and generate human-like text based on the data it has been trained on. Such models are typically based on neural networks, specifically architectures known as transformers, which are highly capable of handling a wide range of language understanding and generation tasks.</dd>
+                    </div>
+                    <div data-last-updated="2023-10-21T13:15:35.838Z">
+                        <dt>
+                            <dfn id="Multi_Head_Attention">
+                                <a href="#Multi_Head_Attention">
+                                    Multi Head Attention
+                                </a>
+                            </dfn>
+                        </dt>
+                        <dd>Multi-head attention is a vital component of the Transformer architecture, underpinning modern large language models (LLMs) like GPT and BERT. The core concept is the attention mechanism, which enables the model to weigh different parts of the input data based on their relevance. Multi-head attention amplifies this by using multiple sets of attention weights simultaneously, allowing the model to focus on diverse parts or aspects of the data in parallel. This parallel processing enables the model to capture a more comprehensive range of relationships and patterns within the data.
+
+In the realm of natural language processing, each attention &quot;head&quot; can specialize, with some heads focusing on syntactic relationships and others on semantic nuances. The outputs from all these heads are aggregated, leading to a robust and contextually rich representation of the input. This mechanism, combined with efficient matrix operations on modern hardware, has been instrumental in enhancing the scalability and performance of LLMs, enabling them to produce nuanced and contextually aware text.</dd>
+                    </div>
+                    <div data-last-updated="2023-10-21T00:41:32.900Z">
+                        <dt>
+                            <dfn id="Natural_Language_Processing">
+                                <a href="#Natural_Language_Processing">
+                                    Natural Language Processing
+                                </a>
+                            </dfn>
+                        </dt>
+                        <dd>In the context of a Large Language Model (LLM) like OpenAI&#39;s GPT series, &quot;NLP&quot; stands for &quot;Natural Language Processing,&quot; which is central to the model&#39;s design and purpose. These LLMs are extensively trained on vast textual datasets, equipping them with the ability to understand, generate, and interact using human languages. Their proficiency in capturing linguistic nuances, idioms, and structures allows them to perform a wide array of language-related tasks.
+
+Users can engage with LLMs in everyday language, making them versatile tools for tasks like conversation, content generation, question answering, writing assistance, and translation. Their deep NLP capabilities enable them to grasp both the meaning and structure of language, ensuring their outputs are not only grammatically accurate but also contextually relevant.</dd>
+                    </div>
+                    <div data-last-updated="2023-10-21T02:57:38.810Z">
+                        <dt>
+                            <dfn id="one_shot_inference">
+                                <a href="#one_shot_inference">
+                                    one shot inference
+                                </a>
+                            </dfn>
+                        </dt>
+                        <dd>One-shot inference&quot; in the context of large language models refers to the ability of the model to perform a specific task with just one instructive example (or prompt) provided to it. This stands in contrast to zero-shot (no examples) and few-shot (several examples) learning.</dd>
+                        <dd>One-shot inference&quot; in the broader context of machine learning, beyond just language models, refers to the scenario where a model makes predictions or inferences based on having seen only one example (or very few examples) per class during training. It&#39;s a subset of the broader paradigm of few-shot learning. One-shot inference is particularly challenging because machine learning models typically require many examples to generalize well.</dd>
+                        <dd class="related-terms">See also: <a href="#Few_Shot_Inference">Few Shot Inference</a>, <a href="#Prompt_Engineering">Prompt Engineering</a></dd>
+                    </div>
+                    <div data-last-updated="2023-10-14T18:04:52.738Z">
+                        <dt>
+                            <dfn id="OpenAI">
+                                <a href="#OpenAI">
+                                    OpenAI
+                                </a>
+                            </dfn>
+                        </dt>
+                        <dd>OpenAI is an AI research and deployment company. Our mission is to ensure that artificial general intelligence benefits all of humanity.</dd>
+                        <dd>[Reference](https://openai.com/)</dd>
+                        <dd class="related-terms">See also: <a href="#Azure_OpenAI">Azure OpenAI</a></dd>
+                    </div>
+                    <div data-last-updated="2023-10-21T02:56:53.125Z">
+                        <dt>
+                            <dfn id="Prompt_Engineering">
+                                <a href="#Prompt_Engineering">
+                                    Prompt Engineering
+                                </a>
+                            </dfn>
+                        </dt>
+                        <dd>Prompt engineering refers to the practice of crafting, refining, and testing prompts to elicit desired responses from machine learning models, especially large language models (LLMs). The prompt effectively serves as an instruction to the model, guiding it towards producing specific kinds of outputs. Given that these models don&#39;t have a built-in understanding of objectives, the way a prompt is phrased can significantly influence the quality and specificity of the model&#39;s response. In the context of LLMs, prompt engineering can involve using various techniques such as rephrasing questions, providing examples, or specifying the format of the desired answer. It&#39;s a blend of art and science, aiming to leverage the model&#39;s capabilities optimally for any given task.</dd>
+                        <dd>[Reference](https://developers.google.com/machine-learning/resources/prompt-eng)</dd>
+                        <dd class="related-terms">See also: <a href="#Few_Shot_Inference">Few Shot Inference</a>, <a href="#one_shot_inference">one shot inference</a></dd>
+                    </div>
+                    <div data-last-updated="2023-10-21T01:03:54.869Z">
+                        <dt>
+                            <dfn id="Quantization">
+                                <a href="#Quantization">
+                                    Quantization
+                                </a>
+                            </dfn>
+                        </dt>
+                        <dd>Quantization in the context of Large Language Models (LLMs) and fine-tuning is an optimization technique that reduces the precision of a model&#39;s weights and activations to save memory and speed up computations. This involves transitioning from higher precision representations, like 32-bit floating-point weights, to lower precision forms such as 16-bit or 8-bit. While this can lead to a performance drop due to the reduced precision, fine-tuning the quantized model can help recover some of the lost accuracy. The process is particularly valuable for deploying LLMs on resource-limited platforms like edge devices, with quantization-aware training further enhancing the model&#39;s robustness to precision los</dd>
+                    </div>
+                    <div data-last-updated="2023-10-21T00:26:16.834Z">
+                        <dt>
+                            <dfn id="RLHF-Reinforcement_Learning_from_Human_Feedback">
+                                <a href="#RLHF-Reinforcement_Learning_from_Human_Feedback">
+                                    RLHF-Reinforcement Learning from Human Feedback
+                                </a>
+                            </dfn>
+                        </dt>
+                        <dd>Reinforcement Learning from Human Feedback (RLHF) in Generative AI involves refining model outputs based on human evaluations. This method is invaluable when a clear reward function is elusive, ensuring generated content aligns with human preferences, remains within acceptable boundaries, and addresses subjective nuances in creative tasks. Leveraging human feedback as a reward signal, models like OpenAI&#39;s GPT-3 are fine-tuned to produce safer and more desirable outputs, skillfully navigating challenges of ambiguity and safety in generative processe</dd>
+                        <dd>[Reference 1](https://huggingface.co/blog/rlhf)
+
+[Reference 2](https://cloud.google.com/vertex-ai/docs/generative-ai/models/tune-models)</dd>
+                    </div>
+                    <div data-last-updated="2023-10-21T01:16:20.619Z">
+                        <dt>
+                            <dfn id="Seq2Seq-Sequence-to-Sequence">
+                                <a href="#Seq2Seq-Sequence-to-Sequence">
+                                    Seq2Seq-Sequence-to-Sequence
+                                </a>
+                            </dfn>
+                        </dt>
+                        <dd>The Transformer architecture, foundational to Large Language Models like GPT and BERT, is a prime example of Sequence-to-Sequence (Seq2Seq) models. In machine translation, for instance, it encodes an input sentence, such as &quot;Hello, how are you?&quot; in English, into a context-rich representation. Then, using attention mechanisms, the decoder processes this representation to generate a translated output, like &quot;Bonjour, comment ça va?&quot; in French. The model&#39;s self-attention allows it to capture contextual relevance, making translations more accurate and nuanced.</dd>
+                        <dd>[Reference](https://huggingface.co/learn/nlp-course/chapter1/7?fw=pt)</dd>
+                    </div>
+                    <div data-last-updated="2023-10-21T12:56:36.527Z">
+                        <dt>
+                            <dfn id="Temperature">
+                                <a href="#Temperature">
+                                    Temperature
+                                </a>
+                            </dfn>
+                        </dt>
+                        <dd>In generative AI, especially with large language models (LLMs) like GPT, &quot;temperature&quot; is a hyperparameter that modulates output randomness. A higher temperature fosters more diverse and creative outputs, but with potential coherence trade-offs, while a lower temperature yields more deterministic and consistent responses, potentially reducing novelty. This balance allows developers to tailor model outputs to various tasks, from creative endeavors to structured applications.</dd>
+                        <dd>* Google Defintion
+
+Temperature: The temperature controls the degree of randomness in token selection. The temperature is used for sampling during response generation, which occurs when topP and topK are applied. Lower temperatures are good for prompts that require a more deterministic or less open-ended response, while higher temperatures can lead to more diverse or creative results. A temperature of 0 is deterministic, meaning that the highest probability response is always selected.</dd>
+                    </div>
+                    <div data-last-updated="2023-10-21T01:29:34.500Z">
+                        <dt>
+                            <dfn id="Unsupervised_Learning">
+                                <a href="#Unsupervised_Learning">
+                                    Unsupervised Learning
+                                </a>
+                            </dfn>
+                        </dt>
+                        <dd>In the context of Generative AI, unsupervised learning refers to training algorithms on unlabeled data to uncover and learn intrinsic patterns and structures. Unlike supervised learning, where models learn from explicit input-output pairs, unsupervised generative models aim to capture the underlying distribution of the data. Prominent examples include Generative Adversarial Networks (GANs) and autoencoders, which learn to generate data that mimics the input distribution, enabling tasks like data synthesis, anomaly detection, and data compression, all without requiring labeled training data.</dd>
+                    </div>
+                    <div data-last-updated="2023-10-21T01:43:57.562Z">
+                        <dt>
+                            <dfn id="VAE_-_Variational_Autoencoder">
+                                <a href="#VAE_-_Variational_Autoencoder">
+                                    VAE - Variational Autoencoder
+                                </a>
+                            </dfn>
+                        </dt>
+                        <dd>Variational Autoencoder (VAE) is a probabilistic generative model that seeks to encode high-dimensional data, like images, into a lower-dimensional latent space and then decode it back to its original form. Unlike traditional autoencoders that simply aim to reconstruct input data, VAEs introduce probabilistic encodings, ensuring that similar data points are mapped to nearby points in the latent space. By sampling from this space, VAEs can generate new, previously unseen data instances that bear resemblance to the training data, making them valuable for tasks like image generation, denoising, and interpolation.</dd>
+                    </div>
+                    <div data-last-updated="2023-10-21T12:46:20.665Z">
+                        <dt>
+                            <dfn id="Weights">
+                                <a href="#Weights">
+                                    Weights
+                                </a>
+                            </dfn>
+                        </dt>
+                        <dd>Weights in neural networks are numerical values representing the strength of connections between neurons. In large language models, the size, or number of parameters, influences the model&#39;s capabilities and limitations. Bigger models can better understand complex patterns and are suitable for transfer learning, but they require more training data and computational resources. Their size may pose deployment challenges in memory-restricted environments. Additionally, while they offer improved performance, they can also amplify biases, necessitating careful use and ethical considerations.</dd>
+                    </div>
+                    <div data-last-updated="2023-10-21T13:27:46.799Z">
+                        <dt>
+                            <dfn id="Xavier_Initialization">
+                                <a href="#Xavier_Initialization">
+                                    Xavier Initialization
+                                </a>
+                            </dfn>
+                        </dt>
+                        <dd>Xavier initialization, often referred to as Glorot initialization, is a strategy used to set the initial weights of neural networks, particularly beneficial for deep models. This method aims to mitigate issues like the vanishing and exploding gradient problems which can hamper the effective training of deep neural architectures.
+
+To encapsulate, Xavier initialization aids in stabilizing the training of generative AI and LLMs by ensuring balanced activations across layers. Given the depth and complexity of these models, such an initialization method is essential to harness their full potential, ensuring efficient learning from their extensive training datasets.</dd>
+                    </div>
+                    <div data-last-updated="2023-10-21T13:34:22.565Z">
+                        <dt>
+                            <dfn id="Yield">
+                                <a href="#Yield">
+                                    Yield
+                                </a>
+                            </dfn>
+                        </dt>
+                        <dd>In the context of Large Language Models (LLMs), &quot;yield&quot; often refers to the outcomes or results produced by these models. Whether discussing the quality of output, training enhancements, research findings, or practical applications, &quot;yield&quot; denotes the benefits, insights, or advancements obtained from utilizing, training, or experimenting with LLMs. Essentially, it captures the tangible or intangible returns derived from engagements with these sophisticated models.</dd>
+                    </div>
+                    <div data-last-updated="2023-10-14T18:03:50.053Z">
+                        <dt>
+                            <dfn id="Zero_Shot_Prompting">
+                                <a href="#Zero_Shot_Prompting">
+                                    Zero Shot Prompting
+                                </a>
+                            </dfn>
+                        </dt>
+                        <dt>
+                            <dfn id="Zero_shot_Inference">
+                                <a href="#Zero_shot_Inference">
+                                    Zero shot Inference
+                                </a>
+                            </dfn>
+                        </dt>
+                        <dd>Zero-shot prompting is a process where you ask a pre-trained model, like GPT-4 or Llama 2, to perform a task without having specifically trained the model on that task. You give the model a descriptive prompt and rely on its general training to produce an appropriate output.</dd>
+                        <dd>Zero-shot prompting essentially leverages the broad knowledge and capabilities of large language models to handle a variety of tasks without additional training. The technique underscores the power of generalist models and the potential of natural language interfaces in AI applications.</dd>
+                    </div>
+                </dl>
+            </article>
+        </main>
+    </div>
+</body>
+
+</html>
+
+<!--
+
+#!/usr/bin/env node
+
+/* START OF editor.js
+
+This script starts a simple server listening on localhost.
+
+* GET requests are served by local HTML/JS/CSS files.
+* PATCH requests to / expect to receive an HTML fragment string in the body.
+  This string is used to update the glossary file, replacing
+    <div id="glossary-page-container"
+      ...
+    </div>.
+
+This allows the editor to save any updates made in the UI.
+
+*/
+
+const http = require('http');
+const fs = require('fs');
+const path = require('path');
+const HOST = process.env['HOST'] || 'localhost';
+const PORT = process.env['PORT'] || 3003;
+const FILE = process.env['FILE'] || './glossary.html';
+
+const mimeTypes = {
+    '.html': 'text/html',
+    '.js': 'text/javascript',
+    '.css': 'text/css'
+};
+
+const server = http.createServer(async (req, res) => {
+    if (req.url === '/' && req.method === 'PATCH') {
+        const buffers = [];
+        for await (const chunk of req) {
+            buffers.push(chunk);
+        }
+        const body = Buffer.concat(buffers).toString();
+        replaceGlossaryElementInFile(body);
+        res.writeHead(204).end();
+    } else {
+        serveLocalFile(req, res);
+    }
+});
+
+server.listen(PORT, HOST, () => {
+    console.log(`Server started at http://${HOST}:${PORT}`);
+});
+
+function serveLocalFile(req, res) {
+    var filePath = '.' + req.url;
+    if (filePath === './') filePath = FILE;
+
+    const extname = String(path.extname(filePath)).toLowerCase();
+    const contentType = mimeTypes[extname] || 'application/octet-stream';
+
+    fs.readFile(filePath, 'utf-8', (err, fileContents) => {
+        if (err) {
+            serveErrorPage(err, res);
+        } else {
+            if (filePath === FILE)
+                fileContents = fileContents.replace(
+                    /<div id="glossary-page-container"/,
+                    `<div id="glossary-page-container" data-editor-is-running="true"`
+                );
+
+            res.writeHead(200, { 'Content-Type': contentType });
+            res.end(fileContents, 'utf-8');
+        }
+    });
+}
+
+function serveErrorPage(err, res) {
+    if (err.code == 'ENOENT') {
+        res.writeHead(404, { 'Content-Type': 'text/html' });
+        res.end('<html><body>Page not found</body></html>');
+    } else {
+        res.writeHead(500, { 'Content-Type': 'text/html' });
+        res.end('<html><body>Internal server error</body></html>');
+    }
+}
+
+function replaceGlossaryElementInFile(newElementString) {
+    fs.readFile(FILE, 'utf8', (err, fileContents) => {
+        if (err) return console.log(err);
+
+        const regex = /\n[ \t]*<div id="glossary-page-container".*<\/div>\n/s;
+
+        if (!fileContents.replace(regex, 'replacing-worked').includes('replacing-worked')) {
+            return console.log(`Unable to save changes using the regex ${regex}`);
+        }
+
+        const updatedFileContents = fileContents.replace(regex, "\n" + newElementString + "\n");
+
+        fs.writeFile(FILE, updatedFileContents, 'utf8', (err) => {
+            if (err) return console.log(err);
+        });
+    });
+}
+
+// -->
